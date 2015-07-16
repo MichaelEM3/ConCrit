@@ -3,9 +3,7 @@ Rails.application.routes.draw do
 
   resources :users
   resources :comments
-  resources :comments
   resources :things
-  resources :products
 
 
   get '/login' => 'sessions#new'
