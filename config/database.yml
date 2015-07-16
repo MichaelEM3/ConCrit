@@ -5,15 +5,17 @@
 #   gem 'sqlite3'
 #
 default: &default
+  user: sean
   adapter: postgresql
   pool: 5
   timeout: 5000
-  database: rainforest
 
 development:
+  database: rainforest
   <<: *default
 
 test:
+  database: rainforest-test
   <<: *default
 
 production:
