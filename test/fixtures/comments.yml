@@ -2,8 +2,8 @@
 
 one:
   comment: MyText
-  things_id: 
+  thing_id: 
 
 two:
   comment: MyText
-  things_id: 
+  thing_id: 

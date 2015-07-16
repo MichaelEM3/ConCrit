@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :comments
+  resources :comments
   resources :things
   resources :products
   get 'users/new'
@@ -39,8 +40,7 @@ Rails.application.routes.draw do
 
   # Example resource route with more complex sub-resources:
   #   resources :products do
-  #     resources :comments
-  #     resources :sales do
+  #     #     resources :sales do
   #       get 'recent', on: :collection
   #     end
   #   end
