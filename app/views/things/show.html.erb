@@ -1,16 +1,30 @@
+<style>
+body {
+  text-align: center;
+}
+h1 {
+  font-family: whoa;
+  src: asset-url("whoa.ttf")format("truetype");
+
+}
+</style>
+
+<body>
+
 <p id="notice"><%= notice %></p>
-<%= image_tag @thing.image.url(:medium) %>
-<p>
+<%= image_tag @thing.image.url(:large) %>
+
+<h1>
   <strong>Name:</strong>
   <%= @thing.name %>
-</p>
+</h1>
 
 <p>
   <strong>Description:</strong>
   <%= @thing.description %>
 </p>
 
-<h3>Comments:</h3>
+<p>Comments:</p>
 <% @thing.comments.each do |comment| %>
   <p>
     <%= comment.comment %><br>
@@ -22,3 +36,5 @@
 
 <%= link_to 'Edit', edit_thing_path(@thing) %> |
 <%= link_to 'Back', things_path %>
+
+</body>
