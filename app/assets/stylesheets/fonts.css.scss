@@ -9,3 +9,8 @@
     font-variant: normal;
     speak: none;*/
 }
+
+@font-face {
+  font-family: sprite;
+  src: asset-url("sprite.off")format("opentype");
+}
