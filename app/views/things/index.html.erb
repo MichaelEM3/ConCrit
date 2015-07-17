@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+<p id="notice"><%= notice %><%= link_to 'Upload new art', new_thing_path %></p>
 
 <h1>Art</h1>
 
@@ -6,8 +6,8 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <!--<th>Description</th> -->
+      <!-- <th>Name</th> -->
+
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -17,9 +17,9 @@
 
       <span>
         <tr class="art2">
-          <td><%= thing.name %></td>
-          <!--<td><%= thing.description %></td> -->
-          <a><td><%= image_tag thing.image.url(:thumb) %></td></a>
+   <div class='try'><td><h1>Title</h1><br> <div class='inny'><%= thing.name %></div</div></td>
+          <td><div class='pic'><%= image_tag thing.image.url(:thumb) %></div></td>
+
 
           <span>
             <td><%= link_to 'Show', thing %></td>
@@ -35,5 +35,3 @@
 </div>
 
 <br>
-
-<%= link_to 'Upload new art', new_thing_path %>
