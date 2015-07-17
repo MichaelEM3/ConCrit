@@ -1,3 +1,36 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*
+.concrit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+
+}*/
+
+.concrit p {
+  position: absolute;
+  left: 37%;
+  top: 37%;
+  margin-left: -5.5%;
+    font-size: 125px;
+    font-family: whoa;
+      text-align: center;
+}
+
+h1 {
+  font-family: whoa;
+
+}
+.login {
+  margin-top: 45em;
+  color: blue;
+  text-align: center;
+}
+.button {
+  text-align: center;
+  padding-top: 15px;
+}
