@@ -8,3 +8,10 @@
   display: inline-table;
   vertical-align: text-bottom;
 }
+
+h1 {
+  text-align: center;
+  font-family: whoa;
+  src: asset-url("whoa.ttf")format("truetype");
+
+}
