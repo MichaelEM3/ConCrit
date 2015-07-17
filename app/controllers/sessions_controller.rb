@@ -2,6 +2,7 @@ class SessionsController < ApplicationController
   skip_before_action :redirect_unless_logged_in
 
   def new
+
   end
 
   def create

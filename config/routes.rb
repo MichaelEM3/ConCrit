@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
   get 'sessions/new'
 
-  get '/things/new'
-
   resources :users
   resources :comments
   resources :things

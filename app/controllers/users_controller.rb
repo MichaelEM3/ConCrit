@@ -4,7 +4,7 @@ class UsersController < ApplicationController
     @user = User.new
     if current_user
       redirect_to '/things'
-    end 
+    end
   end
 
 
