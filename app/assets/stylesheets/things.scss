@@ -1,17 +1,30 @@
 // Place all the styles related to the Things controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 .art2 {
-  width: 45%;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+  width: 450px;
   margin: 1.5%;
   display: inline-table;
-  vertical-align: text-bottom;
+
+  // radius: 70%;
 }
-
+.try {
+  padding-top: -200px;
+  position: absolute;
+}
+.pic {
+  padding-top: -200px;
+}
 h1 {
-  text-align: center;
   font-family: whoa;
-  src: asset-url("whoa.ttf")format("truetype");
-
+  text-align: center;
+  padding-bottom: 50px;
+}
+.inny {
+  position: absolute;
+  top: 85px;
+  padding-left: 20px;
 }
