@@ -1,6 +1,18 @@
-<h1>Edit</h1>
+<style>
+  body {
+    text-align: center;
+  }
+  .field input {
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+</style>
+<body>
+  <h1>Edit</h1>
 
-<%= render 'form' %>
+  <%= render 'form' %>
 
-<%= link_to 'Show', @thing %> |
-<%= link_to 'Back', things_path %>
+  <%= link_to 'Show', @thing %>
+  |
+  <%= link_to 'Back', things_path %>
+</body>

@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
   get 'sessions/new'
 
+  get '/things/new'
+
   resources :users
   resources :comments
   resources :things
-
 
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
