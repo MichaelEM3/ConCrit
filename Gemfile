@@ -11,6 +11,8 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'better_errors'
+
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use SCSS for stylesheets
